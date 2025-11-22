@@ -1,11 +1,11 @@
 A simple ATM Machine project built in Java to demonstrate the State Design Pattern as part of a Software Engineering assignment.
 The ATM changes behavior based on its current state — NoCard, HasCard, and Authenticated — following clean object-oriented design principles.
 
-🔎 Features
+Features:
 
-Implements the State Pattern
+- Implements the State Pattern
 
-Three ATM states:
+- Three ATM states:
 
 NoCardState
 
@@ -13,9 +13,9 @@ HasCardState
 
 AuthenticatedState
 
-Context class (ATM.java) that delegates actions to states
+- Context class (ATM.java) that delegates actions to states
 
-Supports operations:
+- Supports operations:
 
 Insert card
 
@@ -23,11 +23,11 @@ Enter PIN
 
 Withdraw cash
 
-Includes unit tests and a simple star-pattern output utility
+- Includes unit tests and a simple star-pattern output utility
 
-Organized as one-class-per-file following Java coding conventions
+- Organized as one-class-per-file following Java coding conventions
 
-State Design Pattern Overview
+State Design Pattern Overview:
 
 This project demonstrates how behavior changes dynamically at runtime based on internal state.
 
